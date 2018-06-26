@@ -8,8 +8,22 @@ ejecutar la instrucción:
 
 Donde direccion = ubicación de la carpeta
 
-obtener dependencias mux y mysql
+Obtener dependencias mux y mysql
 
 -- restApi$ go get github.com/gorilla/mux
 -- restApi$ go get "github.com/go-sql-driver/mysql"
 
+
+Para ejecutar las pruebas, deben pasarse los datos de la bd en el llamado a la funcion inicializar en main_test.co
+
+Para obtener ejecutable
+
+-- restApi$ go get 
+
+Ejecutar pruebas
+
+-- restApi$ go test -v
+
+Para correr el proyecto sin las pruebas
+ 
+-- restApi$ ./restApi
