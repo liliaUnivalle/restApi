@@ -1,11 +1,15 @@
 #Api rest en Go
 
-Crear un directorio donde funcione el app
+clonar este proyecto 
 
--- $mkdir -p $GOPATH/src/github/{your username}/rest-api
+ejecutar la instrucción:
+
+-- $export GOBIN=(direccion)restApi/
+
+Donde direccion = ubicación de la carpeta
 
 obtener dependencias mux y mysql
 
--- rest-api$ go get github.com/gorilla/mux
--- rest-api$ go get "github.com/go-sql-driver/mysql"
+-- restApi$ go get github.com/gorilla/mux
+-- restApi$ go get "github.com/go-sql-driver/mysql"
 
