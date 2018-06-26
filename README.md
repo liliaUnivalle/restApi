@@ -14,7 +14,7 @@ Obtener dependencias mux y mysql
 -- restApi$ go get "github.com/go-sql-driver/mysql"
 
 
-Para ejecutar las pruebas, deben pasarse los datos de la bd en el llamado a la funcion inicializar en main_test.co
+Para ejecutar las pruebas, deben pasarse los datos de la bd en el llamado a la funcion inicializar en main_test.go
 
 Para obtener ejecutable
 
