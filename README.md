@@ -3,9 +3,11 @@
 clonar este proyecto 
 
 ejecutar la instrucción:
-
--- $export GOBIN=(direccion)restApi/
-
+<div class="highlight highlight-source-shell">
+ <pre> 
+ $export GOBIN=(direccion)restApi/
+ </pre>
+</div>
 Donde direccion = ubicación de la carpeta
 
 Obtener dependencias mux y mysql
@@ -15,8 +17,6 @@ Obtener dependencias mux y mysql
  restApi$ go get "github.com/go-sql-driver/mysql"
  </pre>
 </div>
-
-
 
 Para ejecutar las pruebas, deben pasarse los datos de la bd en el llamado a la funcion inicializar en main_test.go
 
